@@ -1,4 +1,5 @@
 #include <iostream>
+#include "hello.hpp"
 
 #define PROJECT_NAME "ebpf_decoder"
 
@@ -8,5 +9,6 @@ int main(int argc, char **argv) {
         return 1;
     }
     std::cout << "This is project " << PROJECT_NAME << ".\n";
+    hello();
     return 0;
 }
