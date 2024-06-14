@@ -1,5 +1,7 @@
-.PHONY: all
+.PHONY: all clean
 all: build/ebpf_decoder
+clean:
+	rm -rf build
 
 CC = clang
 CXX = clang++
